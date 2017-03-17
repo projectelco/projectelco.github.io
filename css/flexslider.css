@@ -24,6 +24,8 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  
+  height: 500px
 }
 .flexslider .slides img {
   width: 100%;
@@ -62,6 +64,8 @@ html[xmlns] .flexslider .slides {
   -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+  
+  height: 500px;
 }
 .flexslider .slides {
   zoom: 1;

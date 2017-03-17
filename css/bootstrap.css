@@ -2969,7 +2969,7 @@ tbody.collapse.in {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 5px 0;
+  padding: 0;
   margin: 2px 0 0;
   list-style: none;
   font-size: 14px;
@@ -2979,7 +2979,7 @@ tbody.collapse.in {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 23px rgba(0, 0, 0, 0.275);
   background-clip: padding-box;
 }
 .dropdown-menu.pull-right {
@@ -3948,10 +3948,10 @@ tbody.collapse.in {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #1e4491;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #2a5ec9;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -6247,4 +6247,3 @@ button.close {
     display: none !important;
   }
 }
-
