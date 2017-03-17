@@ -689,7 +689,20 @@
 
 		</div>
 	</div>
-<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
+<div id="map"></div>
+<script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 			<div class="row row-pb-md">
@@ -744,8 +757,12 @@
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script> -->
+
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEKR-zxs0UO66EeiYtAC7miNDOOlUSmOw&callback=initMap">
+    </script>
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
